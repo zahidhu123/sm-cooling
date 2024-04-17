@@ -102,11 +102,6 @@ function Home() {
                 </div>
             </div>
 
-            {/* Card section start */}
-
-
-
-
         </>
     )
 }
