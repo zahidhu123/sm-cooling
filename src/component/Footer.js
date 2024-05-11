@@ -52,9 +52,9 @@ function Footer() {
                                         <li>
                                             <NavLink className="link-item" to="/about">About</NavLink>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <NavLink className="link-item" to="/contact">Contact</NavLink>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                             </div>

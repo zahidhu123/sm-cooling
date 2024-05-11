@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <>
             {/* Navbar start */}
-            <nav className="navbar navbar-expand-lg navbar-box py-3 px-5 fixed-top ">
+            <nav className="navbar navbar-expand-lg navbar-box fixed-top ">
                 <div className="container">
                     <Link className="navbar-brand brand-name" to="/">S M Cooling Control</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,9 +22,9 @@ function Navbar() {
                             <li className="nav-item">
                                 <NavLink className="nav-link nav-link-wrap" aria-current="page" to="/about">About</NavLink>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <NavLink className="nav-link nav-link-wrap" aria-current="page" to="/contact">Contact</NavLink>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>

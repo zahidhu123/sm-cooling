@@ -8,6 +8,7 @@
 .navbar-box {
   background-color: #9829b1;
   color: white;
+  padding: 1rem;
 }
 
 .brand-name {
@@ -226,4 +227,43 @@
 .service-btn:hover {
   color: white;
   background-color: #9e25b9;
+}
+
+
+
+
+/* responsive mobile design */
+
+@media only screen and (max-width: 678px) {
+  .c-img {
+    /* height: 100%; */
+    margin-top: 65px;
+  }
+
+  .card-section {
+    margin-top: 0rem;
+  }
+
+  .header-section {
+    height: 50vh;
+  }
+
+  .card-main-title {
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+
+  .link-box {
+    margin: 0px;
+    text-align: center;
+  }
+
+  .email-address {
+    padding-bottom: 1rem;
+  }
+
+  .footer-box {
+    margin-top: 4rem;
+  }
 }
