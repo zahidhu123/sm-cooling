@@ -8,6 +8,12 @@ import Imageac3 from '../assets/ac-image3.jpg'
 import Imageac4 from '../assets/ac-image4.jpg'
 import Imageac5 from '../assets/ac-image5.jpg'
 import Imageac6 from '../assets/ac-image6.webp'
+import Gallery0 from '../assets/gallery0.jpg'
+import Gallery1 from '../assets/gallery1.png'
+import Gallery2 from '../assets/gallery2.jpeg'
+import Gallery3 from '../assets/gallery3.jpg'
+import Gallery4 from '../assets/gallery4.jpg'
+import Gallery5 from '../assets/gallery5.jpg'
 
 
 function Home() {
@@ -42,6 +48,33 @@ function Home() {
             image: Imageac6,
             title: "All Type Service",
             text: "Explore our wide array of services designed to cater to diverse needs. Whether it's repairs, maintenance, installations, or upgrades, we deliver reliable and efficient solutions for all your requirements."
+        }
+    ]
+
+    const gallery = [
+        {
+            sn: 0,
+            image: Gallery0
+        },
+        {
+            sn: 1,
+            image: Gallery1
+        },
+        {
+            sn: 2,
+            image: Gallery2
+        },
+        {
+            sn: 3,
+            image: Gallery3
+        },
+        {
+            sn: 4,
+            image: Gallery4
+        },
+        {
+            sn: 5,
+            image: Gallery5
         }
     ]
 
@@ -98,6 +131,22 @@ function Home() {
                             </div>
                         })
                         }
+                    </div>
+                </div>
+            </div>
+
+            <div className='card-section'>
+                <div className="container">
+                    <h1 className='card-main-title'>Gallery</h1>
+                    <div className="row">
+                        {gallery.map((data) => {
+                            return <div className="col-lg-4 col-md-6 col-sm-6">
+                                <div className='gallery-img-wrap'>
+                                    <img src={data.image} className='gallery-img' alt="" />
+                                </div>
+                            </div>
+                        })}
+
                     </div>
                 </div>
             </div>
