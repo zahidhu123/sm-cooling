@@ -7,27 +7,27 @@ function Service() {
             sn: 0,
             serviceTitle: "AC Repair and Service",
             itemPrice: "Rs.399/ Visit",
-            service1: "Z Pam service 6000/-",
-            service2: "Dry Service,",
-            service3: "Wet Service,",
-            service4: "Drain Service<",
-            service5: "Leakage Service"
+            service1: "Z Pam service 600/-",
+            service2: "Dry Service 500,",
+            service3: "Wet Service 1250,",
+            service4: "Drain Service 450",
+            service5: "Leakage Service 700"
         },
         {
             sn: 1,
             serviceTitle: "AC Installation Service",
             itemPrice: "Rs. 1350/ Unit",
-            service1: "New AC Instalation / fixing,",
-            service2: "Instalation of Indoor unit,",
-            service3: "Drain Cleaning,",
-            service4: "Leakage Service"
+            service1: "New AC Instalation / fixing  1350,",
+            service2: "Instalation of Indoor unit, 850",
+            service3: "Drain Cleaning, 450",
+            service4: "Leakage Service 700"
         },
         {
             sn: 2,
             serviceTitle: "AC Uninstallation Service",
             itemPrice: "Rs. 850/ unit",
-            service1: "Removing outdoor unit,",
-            service2: "Removing indoor unit,",
+            service1: "Removing outdoor unit, 450",
+            service2: "Removing indoor unit, 450",
         },
         {
             sn: 3,
@@ -36,7 +36,8 @@ function Service() {
             service1: "Full Gas filling RS. 2850/-,",
             service2: "Gas Top Up Rs. 1200/-,",
             service3: "Windows Rs. 2850/-,",
-            service4: "Leakage Service"
+            service4: "Leakage Service 700",
+            service5: "Capacitor 1250"
         },
     ]
 

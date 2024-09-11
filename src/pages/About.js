@@ -5,6 +5,39 @@ function About() {
         <>
             <div className='service-section'>
                 <div className="container">
+
+
+
+
+
+                    {/* <div className="col-lg-10 col-md-12 col-sm-12">
+
+                        <h1>About Us</h1>
+                        <h2>Welcome to SM Cooling Control</h2>
+                        <p>At <strong>SM Cooling Control,</strong> we are dedicated to delivering top-notch air conditioning services tailored to meet the needs of both residential and commercial clients. With years of experience in the HVAC industry, we pride ourselves on our commitment to excellence, customer satisfaction, and innovative solutions that ensure your comfort all year round.</p>
+
+                        Our Mission
+                        Our mission is simple: to provide reliable, efficient, and affordable air conditioning services that exceed our customers' expectations. We believe in fostering long-term relationships with our clients by offering unparalleled service and support. Our team is committed to continuous improvement and staying updated with the latest industry advancements to deliver cutting-edge solutions.
+
+                        What We Offer
+                        AC Installation: Our skilled technicians ensure a seamless installation process, helping you choose the right unit for your space and budget.
+                        AC Repair: We offer prompt and efficient repair services to get your system up and running quickly, minimizing downtime and discomfort.
+                        AC Maintenance: Regular maintenance is key to extending the lifespan of your AC unit. Our comprehensive maintenance services keep your system operating at peak efficiency.
+                        Emergency Services: We understand that AC issues can arise unexpectedly. Our 24/7 emergency services ensure that you’re never left in the heat for long.
+                        Our Team
+                        Our team consists of highly trained and certified HVAC professionals who are passionate about their work. They bring a wealth of knowledge and expertise to every job, ensuring that each project is completed to the highest standards. We invest in continuous training and development to stay ahead of industry trends and provide our clients with the best possible service.
+
+                        Why Choose Us?
+                        Customer-Centric Approach: Your satisfaction is our top priority. We listen to your needs and provide customized solutions that fit your specific requirements.
+                        Quality and Reliability: We use only the highest quality parts and equipment, and our work is backed by comprehensive warranties.
+                        Transparency and Integrity: We believe in honest and transparent communication. You can trust us to provide fair pricing and detailed explanations of the work required.
+                        Innovative Solutions: We embrace new technologies and innovative methods to deliver energy-efficient and eco-friendly air conditioning solutions.
+                        Contact Us
+                        Experience the SM Cooling Control difference. Whether you need a new AC installation, routine maintenance, or emergency repairs, our team is here to help. Contact us today to schedule a service or to learn more about how we can keep you cool and comfortable.
+
+
+                    </div> */}
+
                     <div className="row mt-4">
 
                         <h1>Contact Us...</h1>
